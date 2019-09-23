@@ -2,9 +2,16 @@ body {
 
      font-family: 'Montserrat', sans-serif;
     background-color: #ffffff
-
+    background-repeat: no-repeat;
+text-align: center;
+  p {outline-color:Black;}
+  p.dashed {outline-style: dashed;}
 
 }
 
+nav {
+    text-align: left;
+
+}
 
 
