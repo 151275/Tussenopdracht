@@ -5,17 +5,17 @@
 
 body {
 
-    font-family: 'Montserrat', sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffffff
     background-repeat: no-repeat;
     text-align: center;
     p {outline-color:Black;}
-    p.dashed {outline-style: dashed;}
-    background-image: url("http://www.flavouriteslive.nl/wp-content/uploads/2016/03/Achtergrond-website.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+  p.dashed {outline-style: dashed;}
+  background-image: url("http://www.flavouriteslive.nl/wp-content/uploads/2016/03/Achtergrond-website.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
+}
 
 nav {
     text-align: left;
@@ -52,11 +52,4 @@ nav ul li a {
     font-size: 18px;
     padding: 22px 14px;
     text-decoration: none;
-}
-
-
-.dashed {
-    padding: 20px;
-    margin: 20px;
-    border: 2px dashed black;
 }
