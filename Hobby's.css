@@ -4,18 +4,19 @@
 }
 
 body {
-
-    font-family: 'Montserrat', sans-serif;
-    background-color: #ffffff
-    background-repeat: no-repeat;
-    text-align: center;
-    p {outline-color:Black;}
-    p.dashed {outline-style: dashed;}
-    background-image: url("http://www.flavouriteslive.nl/wp-content/uploads/2016/03/Achtergrond-website.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+     font-family: 'Montserrat', sans-serif;
+text-align: center;
+  p outline-color:Black;
+  p.dashed outline-style: dashed;
 }
 
+body{
+    background-image: url("http://www.flavouriteslive.nl/wp-content/uploads/2016/03/Achtergrond-website.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ffffff
+    background-repeat: no-repeat;
+}
 
 nav {
     text-align: left;
@@ -43,6 +44,7 @@ nav ul {
 nav ul li {
     float: left;
     list-style: none;
+    Position: relative;
 }
 
 nav ul li a {
@@ -52,11 +54,13 @@ nav ul li a {
     font-size: 18px;
     padding: 22px 14px;
     text-decoration: none;
-}
 
+}
 
 .dashed {
     padding: 20px;
     margin: 20px;
     border: 2px dashed black;
 }
+
+(Ik heb alles van de navigatie via youtube gedaan: https://www.youtube.com/watch?v=rgUp302f_lY)
